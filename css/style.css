@@ -1,0 +1,32 @@
+body{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	flex-direction: column;
+	background-image: url('../img/planta.png');
+}
+
+#game1{
+	background: linear-gradient(rgba(24, 106, 59,.90),rgba(100, 30, 22 ,.90)100%);
+	width:570px;
+	height: 570px;
+	border-radius: 8px;
+}
+
+.margem{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#snake{
+	border-radius: 4px;
+}
+
+.alinhar{
+	flex-direction: column;
+}
+
+#titulo{
+	font-size: 30px;
+	color: brown;
+}
